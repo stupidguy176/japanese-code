@@ -1,0 +1,50 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# --- Environment variables / Secrets ---
+.env
+*.env
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Unit test / Coverage reports ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints
+
+# --- Logs ---
+*.log
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
